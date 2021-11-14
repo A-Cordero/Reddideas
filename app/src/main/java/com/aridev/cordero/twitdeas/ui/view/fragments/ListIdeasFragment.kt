@@ -71,9 +71,7 @@ class ListIdeasFragment : Fragment() {
     }
 
     private fun setUi() {
-        DialogInit(requireContext()){
 
-        }.show()
         layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         progress = ProgressDialog(requireContext())
     }

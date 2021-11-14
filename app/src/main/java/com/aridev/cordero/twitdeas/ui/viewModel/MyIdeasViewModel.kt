@@ -13,6 +13,6 @@ class MyIdeasViewModel : ViewModel() {
     private val preferences = PreferenceRepository()
 
     fun getIdeas() {
-        _listIdeas.value = preferences.getIdeas()
+        _listIdeas.value = preferences.getIdeas() ?: arrayListOf()
     }
 }

@@ -14,6 +14,7 @@ import com.aridev.cordero.twitdeas.core.extensions.getCenterView
 import com.aridev.cordero.twitdeas.core.style
 import com.aridev.cordero.twitdeas.databinding.ActivityMainBinding
 import com.aridev.cordero.twitdeas.ui.router.Router
+import com.aridev.cordero.twitdeas.ui.view.dialog.DialogInit
 import com.aridev.cordero.twitdeas.ui.view.fragments.ListIdeasFragment
 import com.aridev.cordero.twitdeas.ui.view.fragments.MyIdeasFragment
 import com.aridev.cordero.twitdeas.ui.viewModel.ActivityViewModel
@@ -100,6 +101,9 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun setView() {
+        DialogInit(this){
+
+        }.show()
         Router.replace(ListIdeasFragment(), supportFragmentManager, R.id.container_fragments)
     }
 
