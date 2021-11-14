@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "723422277063",
+    "project_id": "reddideas",
+    "storage_bucket": "reddideas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723422277063:android:9a99fd1d697d84181e3de2",
+        "android_client_info": {
+          "package_name": "com.aridev.cordero.twitdeas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723422277063-6s6ms802tnkiu56uvcqv4q4eu3vngfde.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aridev.cordero.twitdeas",
+            "certificate_hash": "7760d8bd92bedf003df6ee5ed68f9f8ae8bde563"
+          }
+        },
+        {
+          "client_id": "723422277063-qntksohm27pr46l56umg2mk63lddo389.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASkGuKSHIp95iQJUi8jBSMeR_SiVFRQgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723422277063-qntksohm27pr46l56umg2mk63lddo389.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
